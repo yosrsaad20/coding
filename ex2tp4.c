@@ -6,7 +6,8 @@ void main(){
     do {
         printf("donner n");
         scanf("%d",&n);
-    }while (n>30);
+    }hnbfvrnd,gv
+    while (n>30);
       for ( i=0;i<n;i++){
         printf("donner case %d",i);
         scanf("%d",&tab[i]);
@@ -31,6 +32,7 @@ void main(){
             tab[i]=m;
         }
     }printf("le plus petit element est %d",m);
+    printf(("donner n");
 
 }
 
