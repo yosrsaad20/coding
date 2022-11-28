@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main (){
+    int tab[50];
+    int n,i;
+    printf("donner taille de tableau : " );
+    scanf("%d",&n);
+    printf("donner case 0 :");
+    scanf("%d",&tab[0]);
+    for (i=1;i<n;i++){
+        do {
+            printf("donner case %d ",i);
+            scanf("%d",&tab[i]);
+        }while (tab[i]<tab[i-1]);
+    }
+     for (i=0;i<n;i++){
+        printf("%d",tab[i]);
+        printf("\t");
+    }printf("\n");
+
+
+
+    }
