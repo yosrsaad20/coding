@@ -1,0 +1,44 @@
+
+#include<stdio.h>
+# include <stdlib.h>
+#include <math.h>
+void main(){
+    int n,i,j,p;
+
+    int tab1[10],tab2[10];
+    do {
+        printf("donner n");
+        scanf("%d",&n);
+    }while (n<0);
+    for (i=0;i<n;i++){
+            printf("donner case tab[%d]:",i );
+            scanf("%d",&tab1[i]);
+        }
+    printf("premier tableau :");
+    for (i=0;i<n;i++){
+        printf("%d",tab1[i]);
+        printf("\t");
+    }
+
+    printf("\n");
+     for (i=0;i<n;i++){
+            printf("donner case tab[%d]:",i );
+            scanf("%d",&tab2[i]);
+
+        }
+    printf("2eme tableau :");
+    for (i=0;i<n;i++){
+        printf("%d",tab2[i]);
+    }
+     printf("\n");
+
+p=0;
+    for (i=0;i<n;i++) {
+        p=p+tab1[i]*tab2[i];
+
+    }
+     printf("le produit scalaire = %d",p);
+
+
+
+    }
